@@ -30,24 +30,8 @@ public class NavPage extends PageTemplate {
         super(URL.BASE_URL, driver, wait, actions);
     }
 
-    public void clickHomeButton() {
-        homeButton.click();
-    }
-
-    public void clickGamesButton() {
-        gamesButton.click();
-    }
-
-    public void clickQuizzesButton() {
-        quizzesButton.click();
-    }
-
     public void clickMyQuizzesButton() {
         myQuizzesButton.click();
-    }
-
-    public void clickAccountButton() {
-        accountButton.click();
     }
 
     public void clickLoginButton() {

@@ -7,5 +7,4 @@ public class URL {
     public static final String MY_QUIZZES_URL = BASE_URL + "/quiz/my";
     public static final String ALL_QUIZ_URL = BASE_URL + "/quiz/all";
     public static final String QUIZ_URL = BASE_URL + "/quizform";
-    public static final String GAMES_URL = BASE_URL + "/gamelist";
 }

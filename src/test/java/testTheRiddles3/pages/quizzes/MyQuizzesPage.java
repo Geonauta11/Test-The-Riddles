@@ -37,10 +37,6 @@ public class MyQuizzesPage extends PageTemplate {
         acceptAlert();
     }
 
-    public void playQuiz(String quizName) {
-        click(getQuizButton(quizName, QuizButtonType.PLAY));
-    }
-
     public void addQuiz() {
         click(addQuizButton);
     }

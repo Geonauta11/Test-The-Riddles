@@ -41,12 +41,6 @@ public class SignUpPage extends PageTemplate {
         wait.until(ExpectedConditions.urlToBe(URL.LOGIN_URL));
     }
 
-    public void registerWithExistingCredentials(String username, String password, String email) {
-        register(username, email, password);
-        driver.navigate().to(URL.SIGN_UP_URL);
-        register(username, email, password);
-    }
-
     private boolean hasAlert(WebElement inputField) {
         return inputField.getAttribute("validationMessage").contains("Please fill out this field.");
     }

@@ -62,22 +62,12 @@ public class AddQuestionPage extends PageTemplate {
         }
     }
 
-    public void deleteOption(int index) {
-        AnswerComponent answer = getAnswer(index);
-        click(answer.deleteButton());
-    }
-
     public void addOption() {
         click(addOptionButton);
     }
 
     public void saveQuestion() {
         click(saveButton);
-        acceptAlert();
-    }
-
-    public void deleteQuestion() {
-        click(deleteButton);
         acceptAlert();
     }
 

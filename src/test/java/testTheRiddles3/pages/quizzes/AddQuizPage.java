@@ -48,11 +48,6 @@ public class AddQuizPage extends PageTemplate {
         click(saveButton);
     }
 
-    public void deleteQuiz() {
-        deleteButton.click();
-        acceptAlert();
-    }
-
     public void editQuestion(String questionName) {
         click(getQuestion(questionName));
     }
